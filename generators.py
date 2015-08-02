@@ -568,7 +568,6 @@ class DataLoader(object):
                           paired_transfos=paired_transfos):
         if not transfo_params:
             raise ValueError("Need transfo_params for gen!")
-            sys.exit(0)
 
         gens = []
         if num_generators > 1:
@@ -621,7 +620,6 @@ class DataLoader(object):
 
         if not transfo_params:
             raise ValueError("Need transfo_params for gen!")
-            sys.exit(0)
 
         gen = patches_gen_fixed_pairs(images, p_x=self.p_x, p_y=self.p_y,
                                       num_channels=self.num_channels,
