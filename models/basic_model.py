@@ -47,7 +47,7 @@ prefix_test = '/media/user/Extended_ext4/test_ds2_crop/'
 #  4      0.020156)
 chunk_size = 128  # * 2  # * 2
 num_chunks_train = 30000 // chunk_size * 200
-validate_every = 10 #num_chunks_train // 50
+validate_every = num_chunks_train // 50
 output_every = num_chunks_train // 400
 save_every = num_chunks_train // 200
 
@@ -88,7 +88,7 @@ pixel_based_norm = False
 paired_transfos = True
 
 SEED = 1
-sample_coefs = [0, 7, 3, 22, 25]  # Not too much level 4 because overfit?
+sample_coefs = [0, 7, 3, 22, 25]
 # [0, 7, 3, 22, 25] gives more even [0.25. 0.19. 0.20. 0.19. 0.18] distribution
 switch_chunk = 60 * num_chunks_train // 100
 
