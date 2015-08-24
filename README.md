@@ -4,7 +4,7 @@ Fifth place solution for the [Kaggle Diabetic Retinopathy competition](https://w
 The code is quite badly written (lots of ideas, not so much time) but I figured it was more important to release it quickly than to rewrite it all and only publish it weeks later. The most interesting file will probably be the notebook at 
 [notebooks/Sample_prediction.ipynb](https://github.com/JeffreyDF/kaggle_diabetic_retinopathy/blob/master/notebooks/Sample_prediction.ipynb) which shows how to load the model dump, do some predictions with it and see the activations for the different layers.
 
-_Important to note:_ the code is built on top of Lasagne at commit cf1a23c21666fc0225a05d284134b255e3613335. My [own fork](https://github.com/JeffreyDF/Lasagne) currently uses that version so for a little while that will still work. For Theano I have been using the latest master and have no problems. Some specific versions:
+_Important to note:_ the code is built on top of [Lasagne at commit cf1a23c21666fc0225a05d284134b255e3613335](https://github.com/Lasagne/Lasagne/tree/cf1a23c21666fc0225a05d284134b255e3613335). For Theano I have been using the latest master and have no problems. Some specific versions:
 
 - Theano: 9a653e3e91c0e38b6643e4452199931e792a24a2
 - Lasagne: cf1a23c21666fc0225a05d284134b255e3613335
