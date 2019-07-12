@@ -1,5 +1,5 @@
 # Kaggle Diabetic Retinopathy Solution.
-Fifth place solution for the [Kaggle Diabetic Retinopathy competition](https://www.kaggle.com/c/diabetic-retinopathy-detection/) including some trained network. For more information see my [blog post](http://jeffreydf.github.io/diabetic-retinopathy-detection/).
+Fifth place solution for the [Kaggle Diabetic Retinopathy competition](https://www.kaggle.com/c/diabetic-retinopathy-detection/) including some trained network. For more information see my [blog post](http://jeffreydf.github.io/diabetic-retinopathy-detection).
 
 The code is quite badly written (lots of ideas, not so much time) but I figured it was more important to release it quickly than to rewrite it all and only publish it weeks later. The most interesting file will probably be the notebook at 
 [notebooks/Sample_prediction.ipynb](https://github.com/JeffreyDF/kaggle_diabetic_retinopathy/blob/master/notebooks/Sample_prediction.ipynb) which shows how to load the model dump, do some predictions with it and see the activations for the different layers.
